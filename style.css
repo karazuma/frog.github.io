@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.text{
+  display: block;
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'MedievalSharp', cursive;
+  position:relative;
+  width: 100%;
+    border: 5px ;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+.gameimage{
+  display: block;
+  margin-left: 6em;
+  margin-right: 6em;
+  text-align: center
+  position:relative;
+  width: 300px;
+  height:300px;
+    /* border: 5px solid green; */
+    padding: 0px;
+    margin: 10px;
+    cursor:pointer
+}
+
+.container{
+  display: inline-block;
+}
+
+.blink_me {
+  animation: blinker 2.5s linear infinite;
+  color: brown;
+}
+
+@keyframes blinker {
+  70% {
+    opacity: 0;
+  }
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+body {
+  background-color: rgb(170, 238, 196);
+}
